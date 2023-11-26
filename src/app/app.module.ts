@@ -36,7 +36,8 @@ import { EditProfileComponent } from './edit-profile/edit-profile.component';
     MangStaffComponent,
     AddStaffComponent,
     EditStaffComponent,
-    EditProfileComponent
+    EditProfileComponent,
+    
   ],
 
   imports: [
@@ -45,7 +46,8 @@ import { EditProfileComponent } from './edit-profile/edit-profile.component';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    Ng2SearchPipeModule
+    Ng2SearchPipeModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
